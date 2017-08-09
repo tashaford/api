@@ -1,5 +1,7 @@
 use books_rating;
 
+db.books.remove({});
+
 db.books.insert([
   { 
     title: "Peter Rabbit",
